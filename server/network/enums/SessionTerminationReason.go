@@ -1,0 +1,30 @@
+package enums
+
+type SessionTerminationReason int32
+
+const (
+	SessionTerminationReasonNone                                                 SessionTerminationReason = SessionTerminationReason(0)
+	SessionTerminationReasonPacketHeaderDisconnect                               SessionTerminationReason = SessionTerminationReason(1)
+	SessionTerminationReasonAccountInformationInvalid                            SessionTerminationReason = SessionTerminationReason(2)
+	SessionTerminationReasonAccountSelectCallbackException                       SessionTerminationReason = SessionTerminationReason(3)
+	SessionTerminationReasonNetworkTimeout                                       SessionTerminationReason = SessionTerminationReason(4)
+	SessionTerminationReasonClientSentNetworkErrorDisconnect                     SessionTerminationReason = SessionTerminationReason(5)
+	SessionTerminationReasonAccountBooted                                        SessionTerminationReason = SessionTerminationReason(6)
+	SessionTerminationReasonBadHandshake                                         SessionTerminationReason = SessionTerminationReason(7)
+	SessionTerminationReasonPongSentClosingConnection                            SessionTerminationReason = SessionTerminationReason(8)
+	SessionTerminationReasonNotAuthorizedNoPasswordOrGlsTicketIncludedInLoginReq SessionTerminationReason = SessionTerminationReason(9)
+	SessionTerminationReasonNotAuthorizedAccountNotFound                         SessionTerminationReason = SessionTerminationReason(10)
+	SessionTerminationReasonAccountInUse                                         SessionTerminationReason = SessionTerminationReason(11)
+	SessionTerminationReasonNotAuthorizedPasswordMismatch                        SessionTerminationReason = SessionTerminationReason(12)
+	SessionTerminationReasonNotAuthorizedGlsTicketNotImplementedToProcLoginReq   SessionTerminationReason = SessionTerminationReason(13)
+	SessionTerminationReasonClientConnectionFailure                              SessionTerminationReason = SessionTerminationReason(14)
+	SessionTerminationReasonSendToSocketException                                SessionTerminationReason = SessionTerminationReason(15)
+	SessionTerminationReasonWorldClosed                                          SessionTerminationReason = SessionTerminationReason(16)
+	SessionTerminationReasonAbnormalSequenceReceived                             SessionTerminationReason = SessionTerminationReason(17)
+	SessionTerminationReasonAccountLoggedIn                                      SessionTerminationReason = SessionTerminationReason(18)
+	SessionTerminationReasonServerShuttingDown                                   SessionTerminationReason = SessionTerminationReason(19)
+	SessionTerminationReasonAccountBanned                                        SessionTerminationReason = SessionTerminationReason(20)
+	SessionTerminationReasonClientOutOfDate                                      SessionTerminationReason = SessionTerminationReason(21)
+	SessionTerminationReasonForcedLogOffRequested                                SessionTerminationReason = SessionTerminationReason(22)
+	SessionTerminationReasonCharacterSaveFailed                                  SessionTerminationReason = SessionTerminationReason(23)
+)

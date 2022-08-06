@@ -1,0 +1,38 @@
+package enums
+
+
+type CharacterOptions2 uint32
+
+const (
+    CharacterOptions2PersistentAtDay CharacterOptions2 = CharacterOptions2(0x00000001)
+    CharacterOptions2DisplayDateOfBirth CharacterOptions2 = CharacterOptions2(0x00000002)
+    CharacterOptions2DisplayChessRank CharacterOptions2 = CharacterOptions2(0x00000004)
+    CharacterOptions2DisplayFishingSkill CharacterOptions2 = CharacterOptions2(0x00000008)
+    CharacterOptions2DisplayNumberDeaths CharacterOptions2 = CharacterOptions2(0x00000010)
+    CharacterOptions2DisplayAge CharacterOptions2 = CharacterOptions2(0x00000020)
+    CharacterOptions2TimeStamp CharacterOptions2 = CharacterOptions2(0x00000040)
+    CharacterOptions2SalvageMultiple CharacterOptions2 = CharacterOptions2(0x00000080)
+    CharacterOptions2HearGeneralChat CharacterOptions2 = CharacterOptions2(0x00000100)
+    CharacterOptions2HearTradeChat CharacterOptions2 = CharacterOptions2(0x00000200)
+    CharacterOptions2HearLFGChat CharacterOptions2 = CharacterOptions2(0x00000400)
+    CharacterOptions2HearRoleplayChat CharacterOptions2 = CharacterOptions2(0x00000800)
+    CharacterOptions2AppearOffline CharacterOptions2 = CharacterOptions2(0x00001000)
+    CharacterOptions2DisplayNumberCharacterTitles CharacterOptions2 = CharacterOptions2(0x00002000)
+    CharacterOptions2MainPackPreferred CharacterOptions2 = CharacterOptions2(0x00004000)
+    CharacterOptions2LeadMissileTargets CharacterOptions2 = CharacterOptions2(0x00008000)
+    CharacterOptions2UseFastMissiles CharacterOptions2 = CharacterOptions2(0x00010000)
+    CharacterOptions2FilterLanguage CharacterOptions2 = CharacterOptions2(0x00020000)
+    CharacterOptions2ConfirmVolatileRareUse CharacterOptions2 = CharacterOptions2(0x00040000)
+    CharacterOptions2HearSocietyChat CharacterOptions2 = CharacterOptions2(0x00080000)
+    CharacterOptions2ShowHelm CharacterOptions2 = CharacterOptions2(0x00100000)
+    CharacterOptions2DisableDistanceFog CharacterOptions2 = CharacterOptions2(0x00200000)
+    CharacterOptions2ShowCloak CharacterOptions2 = CharacterOptions2(0x00800000)
+    CharacterOptions2LockUI CharacterOptions2 = CharacterOptions2(0x01000000)
+    CharacterOptions2HearPKDeath CharacterOptions2 = CharacterOptions2(0x02000000)
+    CharacterOptions2NotUsed1 CharacterOptions2 = CharacterOptions2(0x04000000)
+    CharacterOptions2NotUsed2 CharacterOptions2 = CharacterOptions2(0x08000000)
+    CharacterOptions2NotUsed3 CharacterOptions2 = CharacterOptions2(0x10000000)
+    CharacterOptions2NotUsed4 CharacterOptions2 = CharacterOptions2(0x20000000)
+    CharacterOptions2NotUsed5 CharacterOptions2 = CharacterOptions2(0x40000000)
+    CharacterOptions2NotUsed6 CharacterOptions2 = CharacterOptions2(0x80000000)
+    )
